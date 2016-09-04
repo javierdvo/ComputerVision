@@ -1,0 +1,5 @@
+Discrete-Discrete: What is the probability of getting a chilli candy for a kid given that there are 5 piñatas in a party.
+Discrete-Continuous: What is the probability of getting said chilli candy for a kid given his age.
+Continuous-Continuous: What is the probability of having a certain height given a certain weight.
+
+We would ignore or marginalize the effect of w and z have on the probabilities. By summing up all the values of w and z we thus get a probability distribution where we don't care about the impact of w and z, so we would only be looking at v, y and x. The same thing would happen for the second question and we would end up with only caring about v and y. It is as if we did not know the value of the w,z and x and v,y only depend on each other. 

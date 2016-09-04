@@ -1,0 +1,3 @@
+To obtain the cumulative variance firstly we do a cumulative sum of the lambda vector obtained from the SVD (The eigenvalues) divided by the sum of all the lambda values. This way we normalize them to one and sum all of them together
+To obtain a single variance we just divide the corresponding lambda value by the sum of all the lambdas.
+Eigenvalues describe the marginal variance captured by u. Thus this way we obtain the variance. By using SVD and never actually computing the covariance matrix directly we obtain a much faster calculation.
